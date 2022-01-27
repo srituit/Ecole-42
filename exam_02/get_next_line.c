@@ -160,7 +160,7 @@ char    *get_next_line(int fd)
     left = get_new_left(left);
     return (line);
 }
-
+/*
 int main(void)
 {   
     int   fd;
@@ -177,4 +177,4 @@ int main(void)
     printf("%s", get_next_line(fd));
     printf("%s", get_next_line(fd));
     return (0);
-}
+}*/
