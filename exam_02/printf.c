@@ -129,9 +129,9 @@ int ft_printf(const char *str, ...)
     va_end(args);
     return (count);
 }
-
+/*
 int main(void)
 {
     ft_printf("%d", -14);
     return (0);
-}
+}*/
